@@ -79,14 +79,15 @@ WSGI_APPLICATION = 'dean2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dean',
-        'USER': 'root',
-        'PASSWORD': '123456789',
-        'HOST': 'localhost',  # Adjust if using a different host
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cloudcomputing_gz53',
+        'USER': 'cloudcomputing_gz53_user',
+        'PASSWORD': 'MpoFw0pEpUzBiEePcxhvlES7B8xGL9xW',
+        'HOST': 'dpg-ctcnlj5ds78s739hfvp0-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
