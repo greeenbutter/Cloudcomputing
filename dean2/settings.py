@@ -89,8 +89,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cloudcomputing',
         'USER': 'cloudcomputing',
-        'PASSWORD': '123456789',
-        'HOST': 'cloudcomputing.c3ioum466rj6.ap-southeast-2.rds.amazonaws.com',
+        'PASSWORD': '12345689',
+        'HOST': 'cloudcomputing.cbkuko8e0vxw.ap-southeast-2.rds.amazonaws.com',
         'PORT': '3306',
         'OPTIONS': {
             'ssl_disabled': True
